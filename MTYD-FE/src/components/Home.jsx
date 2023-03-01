@@ -44,14 +44,7 @@ const Home = () => {
     premultiply // enables or disables noise premultiplication
     blendFunction={BlendFunction.ADD} // blend mode
   />
-   <Glitch
-        delay={[0.5, 1.5]}
-        duration={[0.6, 1.0]}
-        strength={[0.1, 0.2]}
-        mode={GlitchMode.SPORADIC} // try CONSTANT_MILD
-        active // toggle on/off
-        ratio={0.1}
-      />
+
         </EffectComposer>
 
         <PerspectiveCamera makeDefault fov={75} position={[10, 10, 10]} />

@@ -1,5 +1,6 @@
 # Automatrix
-This is an user-friendly modern implementation of John Conway's Game of Life 
+This is an user-friendly modern implementation of John Conway's Game of Life\
+https://tinyurl.com/automatrix09
 
 ## Technologies
 Redux: Used for state management\
